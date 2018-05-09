@@ -416,7 +416,9 @@
 		footerWayPoint();
 		contentWayPoint();
 
-
+		$(".backtop").on("click",function(){
+			$('body,html').animate({scrollTop: 0}, 200)
+		})
 	});
 
 
