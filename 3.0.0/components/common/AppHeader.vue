@@ -15,7 +15,6 @@
 <script>
 
 import api from '~/assets/js/api.js' 
-
 export default {
   components: {
 

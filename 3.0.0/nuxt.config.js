@@ -10,6 +10,10 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '广州网站开发 - 广州飞步信息科技有限公司拥有国内顶级的网站建设, 网页设计，H5网站设计,微信运营,APP设计,小程序开发与开发团队,设计服务囊括品牌网站建设,营销型网站设计, 营销型H5网站设计和创意执行 , 深度追踪最新设计趋势,为客户量身定制品牌运营服务。' }
     ],
+    script: [
+      { src: 'http://api.map.baidu.com/api?v=2.0&ak=5jCnjnCesElvVDufg6yjGMrlYimVXk5f' },
+      {scr:'https://hm.baidu.com/hm.js?3837a289b13b13bb07686e1926221852'}
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
