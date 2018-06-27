@@ -3,7 +3,7 @@
     <div class="banner" ref="banner">
       <div class="banner-b">
         <ul :style="{width:bannerImg.length*100+'%',left:bannerLeft+'%'}">
-          <li :style="{width:100/bannerImg.length+'%'}" v-for="item in bannerImg" :key="item.id">
+          <li :style="{width:100/bannerImg.length+'%'}" v-for="item in bannerImg" :key="item.id" @mouseover="bannerOver" @mouseout="bannerOut">
               <a :href="item.url"><img :src="item.image" :alt="item.title"></a>
           </li>
         </ul>
@@ -150,6 +150,7 @@ export default {
   },
   data(){
     return{
+      Btime:null,
       bannerIndex:0,
       bannerLeft:0,
       bannerTime:0,
@@ -196,7 +197,7 @@ export default {
     },
     timingBanner(){
       let that = this;
-      let Btime = setInterval(function(){
+      that.Btime = setInterval(function(){
         that.bannerTime++;
         if(that.bannerTime > 5){
           that.bannerTime = 0;
@@ -204,6 +205,15 @@ export default {
           that.bannerRun(that.bannerIndex)
         }
       },1000)
+    },
+    bannerOver() {
+      let that = this;
+      that.bannerTime = 0;
+      clearInterval(that.Btime);
+    },
+    bannerOut() {
+      let that = this;
+      that.timingBanner();
     }
   },
   created(){
