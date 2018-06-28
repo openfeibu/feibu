@@ -9,6 +9,8 @@
                     <a href="http://www.feibu.info" target="_black">广州小程序开发</a>
                     <a href="http://www.tianyouart.com" target="_black">天佑艺术馆</a>
                     <a href="http://www.fanghualawyer.com" target="_black">广东芳华律师事务所</a>
+                    <a href="http://word.feibu.info" target="_black">三分热度</a>
+                    <a href="http://www.feibu.info/sitemap.html" target="_black">网站地图</a>
                    
              </div>
              </div>
