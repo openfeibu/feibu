@@ -3,6 +3,7 @@
 		<h1><a href="/" id="logo"><img src="~assets/images/logo.jpg" alt="广州网站开发-广州飞步科技信息科技有限公司"></a></h1>
 		<nav id="nav">
 			<nuxt-link :to="{name:'index'}"  @mouseover.native="navOver" @mouseout.native="navOut" exact>首页</nuxt-link>
+			<nuxt-link :to="{name:'website'}"  @mouseover.native="navOver" @mouseout.native="navOut" >微官网小程序</nuxt-link>
 			<nuxt-link :to="{name:'case'}"  @mouseover.native="navOver" @mouseout.native="navOut" >案例中心</nuxt-link>
             <nuxt-link :to="{name:'new'}"  @mouseover.native="navOver" @mouseout.native="navOut" >最新动态</nuxt-link>
 			<nuxt-link :to="{name:'about'}"  @mouseover.native="navOver" @mouseout.native="navOut">关于飞步</nuxt-link>
