@@ -89,6 +89,7 @@
 				</dl>
         <dl >
 					<dt>系统开发</dt>
+          <dd style="opacity: 1; position: relative; left: 0px;">- 中高职贯通招生管理系统</dd>
 					<dd style="opacity: 1; position: relative; left: 0px;">- 图书馆系统开发</dd>
 					<dd style="opacity: 1; position: relative; left: 0px;">- 招生系统开发</dd>
 					<dd style="opacity: 1; position: relative; left: 0px;">- 饭堂点餐系统开发</dd>
@@ -333,7 +334,7 @@ export default {
 .case{background: #f8f8f8;padding: 30px 0;}
 #works {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0  auto; 
   padding: 50px 0;
   overflow: hidden;
@@ -405,7 +406,7 @@ export default {
   line-height: 24px;
   font-size: 18px;
   color: #333;
-  padding: 16px 0;
+  margin: 16px 0;
   -webkit-transition: ease-in-out 0.3s;
   -moz-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
@@ -583,14 +584,14 @@ export default {
 
 .profession_list {
   max-width: 1200px;
-  margin: 70px auto 0;
+  margin: 60px auto 0;
   overflow: hidden;
 }
 .profession_list dl {
   float: left;
   padding-top: 170px;
-  width: 30%;
-  margin: 0 1.5% 50px 1.5%;
+  width: 28%;
+  margin: 0 2.5% 50px 2.5%;
   height: 180px;
   box-shadow: 0 0 0px #ddd;
   border-radius: 5px;
@@ -686,7 +687,7 @@ export default {
   position: relative;
   padding: 30px 0 80px 0;
 }
-#news .slogan{margin-bottom: 60px}
+#news .slogan{margin-bottom:50px}
 #news .client a {
   color: #525252;
   font-size: 14px;
@@ -889,7 +890,8 @@ export default {
   padding: 30px 0;
   background: url(~assets/images/bg1.jpg) no-repeat center/cover;
   .slogan p{
-    color: #fff
+    color: #fff;
+    line-height: 32px;
   }
    .slogan span{
     color: #ddd
@@ -955,7 +957,8 @@ export default {
   }
 
   #works ul li{
-    width: 50%;
+    width: 47%;
+    margin: 0 1.5% 20px 1.5%
   }
   #works ul li h5{
     font-size: 14px;
@@ -968,19 +971,33 @@ export default {
       font-size: 20px
     }
   }
-  .bd_top{
-    margin: 80px 0
-  }
+ 
   .profession-nr{
     padding:  0 25px;
   }
+  .power{
+    padding: 0 0 30px 0
+  }
+  .profession_list{
+    margin-top: 50px
+  }
   .profession_list dl{
-    width: 50%;
-    height: 180px;
+    width: 47%;
+    height: 140px;
+    margin: 0 1.5% 20px 1.5%;
 
+  }
+  .profession_list dl{
+    background-size:auto 80px !important;
+    padding-top: 120px
+  }
+  .profession_list dt{
+    font-size: 16px;
+    margin-bottom: 10px
   }
   .profession_list dd{
     padding-left: 20px;
+    line-height: 24px;
   }
   #news{
     padding: 0 25px;
@@ -995,13 +1012,21 @@ export default {
       padding: 10px 3%
     }
   }
+  #client{
+    padding:20px 0 50px 0; 
+  }
   #client ul{
     margin-top: 30px
   }
   #client ul li{
     width: 49.5%;
+    height: 120px;line-height: 120px;
+    img{height: 80px;margin: 20px auto;}
   }
 
-  .kefu{display: none;}
+  .case{
+    padding: 0
+  }
+  
 }
 </style>

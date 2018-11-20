@@ -25,12 +25,14 @@
                 </div> 
          </div>
         <div class="getInfo">
-            <a href="tel:13794420683">获取方案及报价</a>
+            <a href="tel:13794420683">获取方案及报价(廖生)</a>
         </div>
-		
+		<div class="getTell animate" :style="{bottom:tellBottom}">
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=319096000&amp;site=qq&amp;menu=yes"><img src="~assets/images/footer-tell.png" alt=""></a>
+            <div class="getTell-close fb-position-absolute" @click="closeTell()"></div>
+        </div>
     <div class="kefu">
         <ul>
-
             <li>
                 <a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=319096000&amp;site=qq&amp;menu=yes">QQ</a>
                 <div class="div-item"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=319096000&amp;site=qq&amp;menu=yes"><span class="h2">业务咨询</span></a></div>
@@ -58,7 +60,7 @@ export default {
   },
   data(){
 	  return{
-		 
+		 tellBottom:0
 	  }
   },
   methods:{
@@ -71,6 +73,10 @@ export default {
             }
         }
         smoothscroll();
+    },
+    closeTell(){
+        var that = this;
+        that.tellBottom="-100%"
     }
   }
 };
@@ -78,7 +84,7 @@ export default {
 </script>
 <style>
 
-footer{width:100%;margin:auto; overflow:hidden; border-top:1px solid #ddd;}
+footer{width:100%;margin:auto; overflow:hidden; border-top:1px solid #ddd;background: #1d1d1d}
 .linkBox{margin:0 auto;padding:25px 25px;background: #222}
 .linkBox p{color: #aaa;font-size:16px;padding: 0 0 10px 0}
 .linkBox p span{color: #aaa;font-size:12px;}
@@ -91,7 +97,7 @@ footer{width:100%;margin:auto; overflow:hidden; border-top:1px solid #ddd;}
 .copy{background: #1d1d1d;color: #aaa;position: relative;padding:45px 25px;}
 .copy .w1200{position: relative;padding:45px 0;}
 .copy a{color: #aaa;}
-.kefu{width:50px; position:fixed;  right:0px; top:74%; z-index:200; transform: translateX(0) translateY(-50%);}
+.kefu{width:50px; position:fixed;  right:0px; top:65%; z-index:200; transform: translateX(0) translateY(-50%);}
 .kefu>ul> li{width:50px; height:50px; margin-top:1px; position:relative;}
 .kefu ul li:hover,.kefu ul li:hover .div-item{background-color:#da0000;}
 .kefu .qq,.kefu .shouhou,.kefu .call,.kefu .back,.kefu .share,.kefu .weixin,.kefu ul li .bdsharebuttonbox a{display:block; width:50px; height:50px; float:left; font-size:0; background-image:url(~assets/images/kefu.png); background-repeat:no-repeat;}
@@ -128,6 +134,11 @@ footer{width:100%;margin:auto; overflow:hidden; border-top:1px solid #ddd;}
 .getInfo a{
     color: #fff
 }
+.getTell{position: fixed;bottom: 0;left: 0;width: 100%;  -webkit-animation: gdownIn 1s 0.8s both;
+  -moz-animation: gdownIn 1s 0.8s both;
+  animation: gdownIn 1s 0.8s both;}
+.getTell img{width: 100%;}
+.getTell-close{width: 90px;height: 90px;bottom: 0;right: 0;position: absolute;;}
 @media screen and (max-width: 1080px) {
     .kefu{
         display: none;
@@ -149,7 +160,9 @@ footer{width:100%;margin:auto; overflow:hidden; border-top:1px solid #ddd;}
     }
     .getInfo{
         display: block;
+        border-radius: 30px 30px 0 0
     }
+    .getTell{display: none;}
     
 }
 

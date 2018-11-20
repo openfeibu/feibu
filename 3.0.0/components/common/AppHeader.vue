@@ -35,8 +35,8 @@
 			</nav>
 			<div class="tell">13794420683</div>
 		</header>
-		<div class="mheader">
-			<div class="logo"><a href="/" ><img src="~assets/images/logo.png" alt="中高职贯通招生管理系统-广州飞步科技信息科技有限公司"></a></div>
+		<div class="mheader" :class="{'mheaderh':headerClass}">
+			<div class="logo"><a href="/" ><img src="~assets/images/logo2.png" alt="中高职贯通招生管理系统-广州飞步科技信息科技有限公司"></a></div>
 			<div class="menu" @click='showMenu()'>
 			</div>
 		</div>
@@ -148,6 +148,9 @@ export default {
 .headerh {
   height: 66px !important;
   background: rgba(52, 159, 255, 0.8) !important;
+}
+.mheaderh{
+   background: rgba(52, 159, 255, 0.8) !important;
 }
 #header.headerh #logo,
 #header.headerh #nav .nav-item,
@@ -276,7 +279,7 @@ export default {
 
 .mheader {
   height: 50px;
-  background: #fff;
+  background: none;
   position: fixed;
   top: 0;
   width: 100%;
@@ -343,8 +346,6 @@ export default {
   .mheader {
     display: block;
   }
-  .container {
-    padding-top: 50px;
-  }
+ 
 }
 </style>

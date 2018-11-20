@@ -235,7 +235,7 @@ export default {
 
 </script>
 <style lang="less">
-.un{padding-top: 100px;}
+
 .un-banner{} 
 .un-banner img{width: 100%;}
 .un-con{max-width: 1200px;margin:0 auto;}
@@ -263,9 +263,7 @@ export default {
 .un-item tr:nth-child(even){background:#e5f1fb; }
 
 @media screen and (max-width: 750px) {
-	.un{
-		padding-top: 50px
-	}
+
 	.un-banner{
 		height: 400px;
 		overflow: hidden;
