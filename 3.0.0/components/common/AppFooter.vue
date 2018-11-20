@@ -1,7 +1,7 @@
 <template>
      <footer id="footer">
          <div class="linkBox">
-             <div class="w1200">
+             <div >
                  <p>友情链接<span>(友链QQ：595642191)</span></p>
              <div class="linkBox-href">
                     <a href="http://www.feibu.info" target="_black">广州网站开发</a>
@@ -16,7 +16,6 @@
              </div>
          </div>
          <div class="copy">
-            <div class="w1200">
                 <div class="copy-left">
                     © CopyRight ©广州飞步信息科技有限公司 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16072342号-1</a>
                 </div>
@@ -24,9 +23,10 @@
                     <span>关注飞步科技</span>
                     <img src="~assets/images/code.jpg" alt="">
                 </div> 
-            </div>
          </div>
-		
+        <div class="getInfo">
+            <a href="tel:13794420683">获取方案及报价</a>
+        </div>
 		
     <div class="kefu">
         <ul>
@@ -78,8 +78,8 @@ export default {
 </script>
 <style>
 
-footer{width:100%;min-width: 1200px; margin:auto; overflow:hidden; border-top:1px solid #ddd;}
-.linkBox{width:100%;min-width: 1200px;margin:0 auto;padding:45px 0;background: #222}
+footer{width:100%;margin:auto; overflow:hidden; border-top:1px solid #ddd;}
+.linkBox{margin:0 auto;padding:25px 25px;background: #222}
 .linkBox p{color: #aaa;font-size:16px;padding: 0 0 10px 0}
 .linkBox p span{color: #aaa;font-size:12px;}
 .linkBox .linkBox-href{color: #aaa;font-size:12px;}
@@ -88,7 +88,7 @@ footer{width:100%;min-width: 1200px; margin:auto; overflow:hidden; border-top:1p
 .linkBox .linkBox-href a:last-child:after{content: "";display: none;}
 .linkBox .linkBox-href a:hover{color: #349fff}
 .linkBox .linkBox-href a:hover:after{content: "|";color: #aaa}
-.copy{background: #1d1d1d;color: #aaa;position: relative;}
+.copy{background: #1d1d1d;color: #aaa;position: relative;padding:45px 25px;}
 .copy .w1200{position: relative;padding:45px 0;}
 .copy a{color: #aaa;}
 .kefu{width:50px; position:fixed;  right:0px; top:74%; z-index:200; transform: translateX(0) translateY(-50%);}
@@ -118,8 +118,39 @@ footer{width:100%;min-width: 1200px; margin:auto; overflow:hidden; border-top:1p
 .kefu ul li .bdsharebuttonbox a.bds_weixin{background-position:-300px 0px;}
 .kefu ul li .bdsharebuttonbox a.bds_tqq{background-position:-350px 0px;}
 .kefu ul li .bdsharebuttonbox a.bds_more{background-position:-400px 0px;}
-.copy-right{position: absolute;top: 0;right: 0;}
+.copy-right{position: absolute;top: 0;right: 25px;}
 .copy-right img{width: 100px;margin:5px 0;-webkit-transition:ease-in-out 0.3s; -moz-transition:ease-in-out 0.3s; transition:ease-in-out 0.3s;}
 .copy-right img:hover{width: 200px;margin:-100px 0 0 0}
 .copy-right span{padding: 0 10px;}
+.getInfo{
+    height: 50px;background: #349fff;width: 100%;text-align: center;line-height: 50px;text-align: center;color: #fff;font-size: 16px;position: fixed;bottom: 0;left: 0;display: none;;;
+}
+.getInfo a{
+    color: #fff
+}
+@media screen and (max-width: 1080px) {
+    .kefu{
+        display: none;
+    }
+    .copy{
+        padding:  0;
+    }
+    .copy-left{
+        padding: 20px 25px;
+       
+    }
+    .copy-right{
+        position: relative;
+        text-align: center;
+        display: none;
+    }
+    footer{
+        padding-bottom: 50px
+    }
+    .getInfo{
+        display: block;
+    }
+    
+}
+
 </style>
