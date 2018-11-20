@@ -8,7 +8,7 @@
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
     </div>
-    <div class="slogan">
+    <!-- <div class="slogan">
       <p>中高职贯通招生管理系统</p>
       <span>根据广东省高职衔接二三分段招生业务需求开发的，面向高职院校、对口中职学校、对口中职学校使用</span>
     </div>
@@ -38,12 +38,13 @@
           <span>大数据图标展示</span>
         </div>
       </div>
-    </div>
-    <div class="slogan">
-      <p>飞步出品，注重精品</p>
-      <span>以策略 设计 技术 服务为核心 为客户持续创造价值</span>
-    </div>
+    </div> -->
+
     <div class="case">
+       <div class="slogan">
+          <p>飞步出品，注重精品</p>
+          <span>以策略 设计 技术 服务为核心 为客户持续创造价值</span>
+        </div>
       <!-- <div class="works_link">
 				      <span>推荐案例</span>
 			        <nuxt-link :to="{name:'case',query:{caseTabId:item.id}}"  v-for="(item) in caseTab" :key="item.id" >{{item.name}}</nuxt-link>
@@ -63,22 +64,22 @@
         </ul>
       </div>
     </div>
-    <div class="bd_top">
-			<hgroup class="profession">
-				<h2>设计 创意 影视 运营 技术 <em>是飞步核心能力</em></h2>
-				<span>飞步不仅是技术公司</span>
-			</hgroup>
+    <div class="bd_top power">
+      <div class="slogan">
+          <p>设计 创意 影视 运营 技术 <em>是飞步核心能力</em></p>
+          <span>拥有国内资深的<a href="#">广州网站建设</a>、 <a href="#">广州网页设计</a>团队,<a href="#">中高职贯通招生管理系统</a>等等成型大型项目。</span>
+        </div>
+		
 			<div class="profession-nr">
-				<p>拥有国内资深的<a href="#">广州网站建设</a>、 <a href="#">广州网页设计</a>团队,<a href="#">中高职贯通招生管理系统</a>等等成型大型项目。</p>
 			</div>
 			<div class="profession_list" id="profession_list">
-				<dl >
-					<dt>平面设计 / VI识别系统</dt>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 品牌LOGO设计</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- VI标识系统</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 宣传物料 / 企业画册</dd>
+				
+        <dl >
+					<dt>小程序 / 微信开发</dt>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 企业官网小程序</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 微信端开发</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 小程序开发</dd>
 				</dl>
-        
 				<dl >
 					<dt>手机网站 / APP开发</dt>
 					<dd style="opacity: 1; position: relative; left: 0px;">- 手机网站建设</dd>
@@ -87,24 +88,25 @@
 					<dd style="opacity: 1; position: relative; left: 0px;">- APP / iOS应用开发</dd>
 				</dl>
         <dl >
-					<dt>高端网站建设</dt>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 品牌网站创意设计</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 企业集团网站建设</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 活动专题创意设计</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 电商 / 门户网站建设</dd>
+					<dt>系统开发</dt>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 图书馆系统开发</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 招生系统开发</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 饭堂点餐系统开发</dd>
+				</dl>
+        
+
+				<dl >
+					<dt>SEO</dt>
+					<dd style="opacity: 1; position: relative; left: 0px;">- SEO搜索引擎优化</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 关键词快速排名上首页</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 百度/360/搜狗</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 关键词优化</dd>
 				</dl>
         <dl >
-					<dt>小程序 / 微信开发</dt>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 企业官网小程序</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 微信端开发</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 小程序开发</dd>
-				</dl>
-				<dl >
-					<dt>品牌营销推广</dt>
-					<dd style="opacity: 1; position: relative; left: 0px;">- SEO搜索引擎优化</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 网络活动及事件策划</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 微信、微博活动营销</dd>
-					<dd style="opacity: 1; position: relative; left: 0px;">- 口碑营销策划</dd>
+					<dt>平面设计 / VI识别系统</dt>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 品牌LOGO设计</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- VI标识系统</dd>
+					<dd style="opacity: 1; position: relative; left: 0px;">- 宣传物料 / 企业画册</dd>
 				</dl>
 				<dl >
 					<dt>影视摄影</dt>
@@ -114,7 +116,6 @@
 				</dl>
 			</div>
 		</div>
-    <section class="bd_top">			
 
 			<div id="news" class="clearfix">
         <div class="slogan">
@@ -145,8 +146,8 @@
 					</ul>
 				</div>
 			</div>
-		</section>
-    <section id="client" class="bd_top">
+
+    <section id="client" >
       <div class="slogan">
           <p>合作客户</p>
           <span><a href="/">中高职贯通招生管理系统</a><a href="/">天佑艺术馆</a> <a href="/">华南理工杏子标本馆</a></span>
@@ -329,8 +330,12 @@ export default {
 .works_link a:hover {
   color: #333;
 }
+.case{background: #f8f8f8;padding: 30px 0;}
 #works {
   width: 100%;
+  max-width: 1500px;
+  margin: 0  auto; 
+  padding: 50px 0;
   overflow: hidden;
 }
 #works ul {
@@ -340,12 +345,17 @@ export default {
 }
 #works ul li {
   float: left;
-  width: 25%;
-  *width: 24.97%;
+  width: 23%;
+  margin: 10px 1%;
   text-align: center;
+  background: #fff;
+  box-shadow: 0 0 20px #ddd;
+  border-radius: 5px;
+  overflow: hidden;
   -webkit-animation: gfadeIn 0.6s 1.5s both;
   -moz-animation: gfadeIn 0.6s 1.5s both;
   animation: gfadeIn 0.6s 1.5s both;
+
 }
 #works ul li a {
   display: block;
@@ -410,52 +420,52 @@ export default {
   -moz-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
 }
-#works ul li a:hover {
-  background-color: #349fff;
-}
-#works ul li:nth-of-type(1) a:hover {
-  background-color: #349fff;
-}
-#works ul li:nth-of-type(1) a:hover {
-  background-color: #edd8b5;
-}
-#works ul li:nth-of-type(2) a:hover {
-  background-color: #0588d1;
-}
-#works ul li:nth-of-type(3) a:hover {
-  background-color: #09337d;
-}
-#works ul li:nth-of-type(4) a:hover {
-  background-color: #d5414d;
-}
-#works ul li:nth-of-type(5) a:hover {
-  background-color: #f5585a;
-}
-#works ul li:nth-of-type(6) a:hover {
-  background-color: #00aa80;
-}
-#works ul li:nth-of-type(7) a:hover {
-  background-color: #1d1d1d;
-}
-#works ul li:nth-of-type(8) a:hover {
-  background-color: #4cc63f;
-}
-#works ul li:nth-of-type(9) a:hover {
-  background-color: #84d9f5;
-}
-#works ul li:nth-of-type(10) a:hover {
-  background-color: #1f99d8;
-}
-#works ul li:nth-of-type(11) a:hover {
-  background-color: #50b2e1;
-}
-#works ul li:nth-of-type(12) a:hover {
-  background-color: #01a1ef;
-}
-#works ul li a:hover h5,
-#works ul li a:hover span {
-  color: #fff;
-}
+// #works ul li a:hover {
+//   background-color: #349fff;
+// }
+// #works ul li:nth-of-type(1) a:hover {
+//   background-color: #349fff;
+// }
+// #works ul li:nth-of-type(1) a:hover {
+//   background-color: #edd8b5;
+// }
+// #works ul li:nth-of-type(2) a:hover {
+//   background-color: #0588d1;
+// }
+// #works ul li:nth-of-type(3) a:hover {
+//   background-color: #09337d;
+// }
+// #works ul li:nth-of-type(4) a:hover {
+//   background-color: #d5414d;
+// }
+// #works ul li:nth-of-type(5) a:hover {
+//   background-color: #f5585a;
+// }
+// #works ul li:nth-of-type(6) a:hover {
+//   background-color: #00aa80;
+// }
+// #works ul li:nth-of-type(7) a:hover {
+//   background-color: #1d1d1d;
+// }
+// #works ul li:nth-of-type(8) a:hover {
+//   background-color: #4cc63f;
+// }
+// #works ul li:nth-of-type(9) a:hover {
+//   background-color: #84d9f5;
+// }
+// #works ul li:nth-of-type(10) a:hover {
+//   background-color: #1f99d8;
+// }
+// #works ul li:nth-of-type(11) a:hover {
+//   background-color: #50b2e1;
+// }
+// #works ul li:nth-of-type(12) a:hover {
+//   background-color: #01a1ef;
+// }
+// #works ul li a:hover h5,
+// #works ul li a:hover span {
+//   color: #fff;
+// }
 #works ul li a:hover article summary {
   bottom: 0;
 }
@@ -483,6 +493,9 @@ export default {
   *padding: 74px 0;
   border-top: 1px dotted #c8c8c8;
   position: relative;
+}
+#client{
+  background: #f8f8f8;padding: 30px 0 80px 0 ;
 }
 .client {
   position: absolute;
@@ -575,9 +588,12 @@ export default {
 }
 .profession_list dl {
   float: left;
-  padding-top: 88px;
-  width: 400px;
-  margin: 30px 0;
+  padding-top: 170px;
+  width: 30%;
+  margin: 0 1.5% 50px 1.5%;
+  height: 180px;
+  box-shadow: 0 0 0px #ddd;
+  border-radius: 5px;
 }
 .profession_list dt {
   color: #333;
@@ -593,33 +609,33 @@ export default {
   padding-left: 120px;
 }
 .profession_list dl:nth-of-type(1) {
-  background: url("~assets/images/home_icon1.png") no-repeat top center/auto
-    60px;
+  background:#fff url("~assets/images/home_icon4.png") no-repeat center 25px/auto
+    120px;
 }
 .profession_list dl:nth-of-type(2) {
-  background: url("~assets/images/home_icon2.png") no-repeat top center/auto
-    80px;
+  background:#fff url("~assets/images/home_icon2.png") no-repeat center 25px/auto
+    120px;
 }
 .profession_list dl:nth-of-type(3) {
-  background: url("~assets/images/home_icon3.png") no-repeat top center/auto
-    80px;
+  background:#fff url("~assets/images/home_icon3.png") no-repeat center 25px/auto
+    120px;  
 }
 .profession_list dl:nth-of-type(4) {
-  background: url("~assets/images/home_icon4.png") no-repeat top center/auto
-    60px;
+  background:#fff url("~assets/images/home_icon5.png") no-repeat center 25px/auto
+    120px;
 }
 .profession_list dl:nth-of-type(5) {
-  background: url("~assets/images/home_icon5.png") no-repeat top center/auto
-    60px;
+  background:#fff url("~assets/images/home_icon1.png") no-repeat center 25px/auto
+    100px;
 }
 .profession_list dl:nth-of-type(6) {
-  background: url("~assets/images/home_icon6.png") no-repeat top center/auto
-    60px;
+  background:#fff url("~assets/images/home_icon6.png") no-repeat center 25px/auto
+    100px;
 }
 
 #client ul {
   max-width: 1195px;
-  margin: 74px auto;
+  margin: 60px auto 0 auto;
   overflow: hidden;
   border-top: 1px solid #e5e5e5;
   border-left: 1px solid #e5e5e5;
@@ -634,6 +650,7 @@ export default {
   line-height: 178px;
   border-right: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
+  background: #fff;
   text-align: center;
   position: relative;
   cursor: pointer;
@@ -665,10 +682,11 @@ export default {
 
 #news {
   max-width: 1200px;
-  margin: 30px auto;
+  margin: 0 auto;
   position: relative;
-  padding: 80px 0;
+  padding: 30px 0 80px 0;
 }
+#news .slogan{margin-bottom: 60px}
 #news .client a {
   color: #525252;
   font-size: 14px;
@@ -748,7 +766,7 @@ export default {
   padding: 0 30px;
   background: #f8f8f8;
   overflow: hidden;
-  box-shadow: 0 10px 30px #ddd;
+  box-shadow: 0 0px 20px #ddd;
 }
 #news .signing ul {
   width: 100%;
@@ -865,6 +883,21 @@ export default {
     }
   }
 }
+.power{
+  margin:0;
+  min-height: 600px;
+  padding: 30px 0;
+  background: url(~assets/images/bg1.jpg) no-repeat center/cover;
+  .slogan p{
+    color: #fff
+  }
+   .slogan span{
+    color: #ddd
+  }
+   .slogan span a{
+    color: #ddd
+  } 
+}
 
 @media screen and (max-width: 1080px) {
   .slogan{
@@ -943,7 +976,8 @@ export default {
   }
   .profession_list dl{
     width: 50%;
-    height: 180px
+    height: 180px;
+
   }
   .profession_list dd{
     padding-left: 20px;
