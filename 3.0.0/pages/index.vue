@@ -9,7 +9,7 @@
       </swiper>
     </div>
     <div class="slogan">
-      <p>三二分段招生管理系统 </p>
+      <p>中高职贯通招生管理系统</p>
       <span>根据广东省高职衔接二三分段招生业务需求开发的，面向高职院校、对口中职学校、对口中职学校使用</span>
     </div>
     <div class="introBox">
