@@ -53,7 +53,7 @@ body,#header{}
 .w1200{width: 1200px;margin:0 auto;}
 .detail article{min-height: 300px;}
 .bgf2{background: #f2f2f2;padding-bottom: 50px;}
-.un-banner{} 
+.un-banner{background: #349fff;} 
 .un-banner img{width: 100%;}
 
 .overflow-1{

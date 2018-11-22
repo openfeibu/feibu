@@ -1,5 +1,8 @@
 <template>
     <section class="container bgf2">
+        <div class="un-banner">
+            <img src="~assets/images/updateBanner.jpg" alt=""> 
+      </div>
      <div class="detail">
 			<h1>{{caseDetail.title}}</h1>
 			<span>{{caseDetail.date}}</span> <span> 浏览：<span>{{caseDetail.views_count}}</span></span>
