@@ -1,5 +1,9 @@
 <template>
+
     <section class="container">
+       <div class="un-banner">
+            <img src="~assets/images/updateBanner.jpg" alt=""> 
+        </div>
      <div class="f-case">
          <div class="f-works_link">
             <a :class="{'active':caseType == item.id}" v-for="(item) in caseTab" :key="item.id" @click="changeTab(item.id)">{{item.name}}</a>

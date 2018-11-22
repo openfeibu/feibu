@@ -28,7 +28,7 @@
             <a href="tel:13794420683">获取方案及报价(廖生)</a>
         </div>
 		<div class="getTell animate" :style="{bottom:tellBottom}">
-            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=319096000&amp;site=qq&amp;menu=yes"><img src="~assets/images/footer-tell.png" alt=""></a>
+            <a target="_black" href="http://wpa.qq.com/msgrd?v=3&amp;uin=319096000&amp;site=qq&amp;menu=yes"><img src="~assets/images/footer-tell.png" alt=""></a>
             <div class="getTell-close fb-position-absolute" @click="closeTell()"></div>
         </div>
     <div class="kefu">

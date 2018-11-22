@@ -15,19 +15,52 @@
             </div>
             <div class="about_con" v-if="active == 1">
               <article>
-                  <img src="~assets/images/about.jpg" alt="">
-                  <p>广州飞步信息科技有限公司，创立于2016年，公司专注于互联网产品开发和计算机网络系统工程服务，以打造校园互联网O2O生活服务平台为核心，同时立足高校学生需求，依托珠三角地区庞大的大学生群体，建立高校论坛，开发各类便民服务软件，让广大学生足不出校了解社会各种动态。对外承接各类网站、微信公众号开发、代运维，通信线路和设备的安装等业务。公司成立以来，受到了社会各界的关注，经过一年多的努力和发展，公司实力越来越强。公司由一群年轻活力的大学生组成，拥有专业的技术能力和高度的创业激情。我们秉承着创新、激情、团结、共享的创业精神，坚持用心服务、满足客户的理念，共同建设一个大学生创业孵化基地。</p>
+                  <!-- <img src="~assets/images/about.jpg" alt=""> -->
+                  <p><a href="/">广州飞步信息科技有限公司</a>，成立于2016年，公司专注于互联网产品开发及计算机网系统工程服务。在信息化时代日渐成熟的同时，我们敢于创新，不断前行。依托珠三角地区庞大、前沿的教育环境，公司致力研发符合相关单位使用的各大中小型系统及便民论坛。其中“三二分段招生系统”于2016年开发并获得相关软件著作权。本系统是完全按照广东省教育厅高职衔接三二分段招生业务而展开的，面向高职院校，对口中职老师及同学使用。</p>
               </article>
             </div>
             <div class="about_con" v-else-if="active == 2">
-                  <img src="~assets/images/wh.jpg" alt="">
+              <article>
+                  诚实守信：诚实，是企业的立足之本，是维护利益双方的基本素养。遵守商业伦理与契约精神是作为企业的唯一标准。守信，坚守法律和道德底线，信守承诺，知行合一。
+
+                <br><br>
+                创新发展：识时务者，为俊杰，作为新时代的企业，创新永远为我们的第一生产力。大力培育创新体系，顺时应势，主动变革。人人创新、全员创新
+
+                <br><br>
+                以人为本：新一代年轻企业，我们将一直保持这种敢为人先的作风。尊重每一个人的价值，开发每一个人的潜能，提升个人的心灵升华。保持感恩之心，善待每一位同事，倡导积极向上、绿色健康的生活方式。
+              </article>
             </div>
             <div class="about_con" v-else-if="active == 3">
               <article>
                 <article class="lic">
                   <ul >
-                    <li><h3>2016</h3><p>广州飞步信息科技有限公司成立。</p></li>
-                    
+                    <li><h3>2016年5月</h3><p>广州飞步信息科技有限公司成立。</p></li>
+                  </ul>
+                  <ul >
+                    <li>
+                      <h3>2016年6月</h3>
+                      <p>中高职贯通招生管理系统投入研发</p>
+                      <p>自主招生系统投入研发</p>
+                      <p>资助系统投入研发</p>
+                    </li>  
+                  </ul>
+                  <ul >
+                    <li><h3>2016年9月</h3><p>中高职贯通招生管理系统V1.0.0上线</p></li>  
+                  </ul>
+                  <ul >
+                    <li><h3>2016年10月</h3><p>自主招生系统V1.0.0上线</p></li>  
+                  </ul>
+                  <ul >
+                    <li><h3>2017年2月</h3><p>资助系统V1.0.0上线</p></li>  
+                  </ul>
+                  <ul >
+                    <li><h3>2017年3月</h3><p>第一所高职广东农工商职业技术学院使用中高职贯通招生管理系统</p></li>  
+                  </ul>
+                  <ul >
+                    <li><h3>2018年5月</h3><p>中高职贯通招生管理系统V2.0.0重大更新上线</p></li>
+                  </ul>
+                  <ul >
+                    <li><h3>2018年11月</h3><p>中高职贯通招生管理系统按照最新文件更新上线</p></li>
                   </ul>
                   <div class="logobutton animate" @mousedown="logobuttonFun"></div>
                 </article>
@@ -74,7 +107,7 @@ export default {
 #about_menu{text-align:center;}
 #about_menu li{display:inline-block; *display:inline; *zoom:1; width:122px; height:56px; margin:0 20px; line-height:56px; color:#858585; cursor:pointer; font-size:18px; -webkit-transition:0.3s; -moz-transition:0.3s; transition:0.3s;}
 #about_menu li.active, #about_menu li:hover{background:#f3f3f3; color:#333;}
-.about_con{padding:80px 0; background-color:#f3f3f3; background-repeat:no-repeat; background-position:50% 50%;font-size: #bbb;line-height: 1.5;font-size:16px;}
+.about_con{padding:80px 0; background-color:#f8f8f8; background-repeat:no-repeat; background-position:50% 50%;font-size: #bbb;line-height: 1.5;font-size:16px;}
 .about_con article{width:1200px; margin:auto; *zoom:1;}
 .about_con article:after{content:''; display:block; width:0; height:0; clear:both;}
 .about_con img{max-width: 100%;margin:10px 0}

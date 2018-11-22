@@ -1,5 +1,8 @@
 <template>
     <section class="container">
+        <div class="un-banner">
+            <img src="~assets/images/updateBanner.jpg" alt=""> 
+        </div>
         <div class="news_wrap">
             <ul id="news_list">
                 <li style="" v-for="(item) in newsList" :key="item.id" >

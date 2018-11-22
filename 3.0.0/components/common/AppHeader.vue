@@ -201,6 +201,7 @@ export default {
   color: #fff;
   vertical-align: top;
   position: relative;
+  cursor: pointer;
 }
 #nav .nav-item a{
   color: #fff;
@@ -242,7 +243,7 @@ export default {
   height: 150px;
 }
 #nav a:hover {
-  color: #6e6e6e;
+  opacity: 0.8;
 }
 #header .tell {
   position: absolute;
@@ -275,6 +276,8 @@ export default {
 #nav .nuxt-link-active {
   color: #349fff;
   font-weight: bold;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
 }
 
 .mheader {
