@@ -5,7 +5,7 @@
         </div>
         <div class="un-con">
 			<div class="un-item-step">
-				<img src="~assets/images/step.jpg" width="100%" alt="中高职贯通招生管理系统流程步骤">
+				<img src="~assets/images/step.jpg" width="100%" alt="中高职贯通招生管理系统的流程步骤">
 			</div>
 			<div class="un-item">	
 				<div class="un-left un-test">
@@ -20,7 +20,7 @@
 			</div>
             <div class="un-item">	
 				<div class="un-left un-img">
-					<img src="~assets/images/un1.png" alt="中高职贯通招生管理系统-大数据分析" >
+					<img src="~assets/images/un1.png" alt="中高职贯通-大数据分析" >
 				</div>
 				<div class="un-right un-test">
 					<p>大数据分析</p>
@@ -42,12 +42,12 @@
 					
 				</div>
 				<div class="un-right un-img">
-					<img src="~assets/images/un2.png" alt="中高职贯通招生管理系统-中高职管理" >
+					<img src="~assets/images/un2.png" alt="中高职贯通-中高职管理" >
 				</div>
 			</div>
          	<div class="un-item">	
 				<div class="un-left un-img">
-					<img src="~assets/images/un3.png" alt="中高职贯通招生管理系统-考生管理" >
+					<img src="~assets/images/un3.png" alt="中高职贯通-考生管理" >
 				</div>
 				<div class="un-right un-test">
 					<p>考生管理</p>
@@ -164,9 +164,9 @@ export default {
   },
   head () {
     return {
-      title: '微官网小程序 | 企业官网小程序 | 广州网站开发 | 广州APP开发 | 广州小程序开发',
+      title: '中高职贯通招生管理系统 | 广州小程序开发 | 小程序开发 |广州网站开发 | 广州APP开发 ',
        meta: [
-        { hid: 'description', name: 'description', content: '飞步科技自行研发的微官网小程序系统，适用于公司品牌宣传，帮助客户一键生成微信小程序，让您的公司把握9亿微信用户的流量红利,微信小程序开发,微信小程序定制。' }
+        { hid: 'description', name: 'description', content: '中高职贯通招生管理系统是根据广东省高职衔接二三分段招生业务需求开发的，面向高职院校，对口中职学校使用。本系统基于B,微信小程序开发,微信小程序定制。' }
       ]
     }
   },

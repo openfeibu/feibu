@@ -85,7 +85,7 @@ export default {
   },
   head () {
     return {
-      title: '关于飞步 | 广州网站开发 | 广州APP开发 | 广州小程序开发'
+      title: '关于飞步科技 | 中高职贯通招生管理系统 | 广州网站开发 | 广州APP开发 | 广州小程序开发'
     }
   },
   methods: {

@@ -50,7 +50,7 @@ export default {
   },
   head () {
     return {
-      title: '飞步案例中心 | 广州网站开发 | 广州APP开发 | 广州小程序开发'
+      title: '飞步科技案例中心 | 中高职贯通招生管理系统 | 广州网站开发 | 广州APP开发 | 广州小程序开发'
     }
   },
   async asyncData (context) {
