@@ -45,7 +45,7 @@ export default {
   },
   head () {
     return {
-      title: '飞步最新动态 | 广州网站开发 | 广州APP开发 | 广州小程序开发'
+      title: '飞步科技最新动态 | 中高职贯通招生管理系统 | 广州网站开发 | 广州APP开发 | 广州小程序开发'
     }
   },
   async asyncData (context) {

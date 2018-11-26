@@ -67,7 +67,7 @@
     <div class="bd_top power">
       <div class="slogan">
           <p>设计 创意 影视 运营 技术 <em>是飞步核心能力</em></p>
-          <span>拥有国内资深的<a href="#">广州网站建设</a>、 <a href="#">广州网页设计</a>团队,<a href="#">中高职贯通招生管理系统</a>等等成型大型项目。</span>
+          <span>拥有国内资深的<a href="#">广州网站建设</a>、 <a href="#">广州网页设计</a>团队,以及<a href="#">中高职贯通招生管理系统</a>等等成型大型项目。</span>
         </div>
 		
 			<div class="profession-nr">
@@ -151,7 +151,7 @@
     <section id="client" >
       <div class="slogan">
           <p>合作客户</p>
-          <span><a href="/">中高职贯通招生管理系统</a><a href="/">天佑艺术馆</a> <a href="/">华南理工杏子标本馆</a></span>
+          <span><a href="/">广东农工商职业技术学院</a>、<a href="/">华南理工大学</a>、<a href="/">天佑艺术馆</a> <a href="/">华南理工杏子标本馆</a></span>
         </div>
 			
 			<ul>

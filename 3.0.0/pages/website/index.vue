@@ -327,7 +327,7 @@ export default {
 
 </script>
 <style>
-.website{padding-top: 100px;}
+.website{}
 .website-banner{} 
 .website-banner img{width: 100%;}
 .website-con{width: 1200px;margin:0 auto;}

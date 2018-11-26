@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<header id="header" :class="{'headerh':headerClass}">
-			<h1><a href="/" id="logo"><img src="~assets/images/logo2.png" alt="中高职贯通招生管理系统-广州飞步科技信息科技有限公司"></a></h1>
+			<h1><a href="/" id="logo"><img src="~assets/images/logo2.png" alt="广州飞步科技信息科技有限公司logo - 中高职贯通招生管理系统"></a></h1>
 			<nav id="nav">
 				<div class="nav-item"  >
 					<nuxt-link :to="{name:'index'}"   exact>首页</nuxt-link>
@@ -36,13 +36,13 @@
 			<div class="tell">13794420683</div>
 		</header>
 		<div class="mheader" :class="{'mheaderh':headerClass}">
-			<div class="logo"><a href="/" ><img src="~assets/images/logo2.png" alt="中高职贯通招生管理系统-广州飞步科技信息科技有限公司"></a></div>
+			<div class="logo"><a href="/" ><img src="~assets/images/logo2.png" alt="广州飞步科技信息科技有限公司logo - 中高职贯通招生管理系统"></a></div>
 			<div class="menu" @click='showMenu()'>
 			</div>
 		</div>
 		<div class="nav" :style="{height:navHeight}">
                 <div class="nav-header">
-                    <div class="logo"><a href=""><img src="~assets/images/logo2.png" alt=""></a></div>
+                    <div class="logo"><a href=""><img src="~assets/images/logo2.png" alt="广州飞步科技信息科技有限公司logo - 中高职贯通招生管理系统"></a></div>
                     <div class="close" @click='hideMenu()'></div>
                 </div> 
                 <div class="nav-list">
