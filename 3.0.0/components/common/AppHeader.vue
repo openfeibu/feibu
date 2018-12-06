@@ -177,7 +177,7 @@ export default {
 }
 #logo img {
   vertical-align: middle;
-  height: 40px;
+  height: 55px;
 }
 #logo:hover {
   opacity: 0.8;

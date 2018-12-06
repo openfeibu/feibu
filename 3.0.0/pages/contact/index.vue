@@ -80,16 +80,19 @@ export default {
 	</div>`;
     let map = new BMap.Map("allmap");
 	let point = new BMap.Point(113.621894,23.291223);
+	let point2 = new BMap.Point(113.4080780000,23.1179400000);
     let marker = new BMap.Marker(point);
+    let marker2 = new BMap.Marker(point2);
 	map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
 	map.enableScrollWheelZoom();                            //启用滚轮放大缩小
     let infoWindow = new BMap.InfoWindow(sContent);  // 创建信息窗口对象
-	map.centerAndZoom(point, 16);
+	map.centerAndZoom(point2, 16);
 	map.addOverlay(marker);
+	map.addOverlay(marker2);
 	map.disable3DBuilding();
-    map.centerAndZoom(point, 16); 
+    map.centerAndZoom(point2, 16); 
     map.setMapStyle({style:'hardedge'});
-    marker.openInfoWindow(infoWindow);
+    marker2.openInfoWindow(infoWindow);
     // map.addEventListener("click",function(e){
 	// 	console.log(e.point.lng + "," + e.point.lat);
 	// });

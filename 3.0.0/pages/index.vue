@@ -54,7 +54,7 @@
           <li style="" v-for="(item) in caseList" :key="item.id" >
             <nuxt-link :to="{name:'case-id',params:{id:item.id}}" target= '_blank'  >
                 <article>
-                    <img :src="item.image" :alt="item.title"/>
+                    <img :src="item.image" :alt="item.title+'微信小程序开发'"/>
                     <!-- <summary>{{item.description}}</summary> -->
                 </article>
                 <h5>{{item.title}}</h5>
@@ -121,7 +121,7 @@
 			<div id="news" class="clearfix">
         <div class="slogan">
           <p>FB动态 </p>
-          <span><a href="/">中高职贯通招生管理系统</a> <a href="/">广州建站公司</a> <a href="/">广州小程序开发</a></span>
+          <span><a href="/">中高职贯通招生管理系统</a> <a href="/">广州建站公司</a> <a href="/">广州微信小程序开发</a></span>
         </div>
         <template v-for="(item,index) in newsList" >
           <div class="item"  v-if="index == 0 || index == 1" :key="item.id">
