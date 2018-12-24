@@ -27,7 +27,7 @@ export default {
   head () {
     let that = this;
     return {
-      title: that.caseDetail.title+' | 广州网站开发飞步科技'
+      title: that.caseDetail.title+' | 广州网站开发 | 飞步科技'
     }
   },
   async asyncData (context) {
